@@ -1,0 +1,53 @@
+# Basic function
+def greet(name):
+    return f"Hello, {name}!"
+
+# Function with multiple parameters
+def calculate_area(length, width):
+    area = length * width
+    return area
+
+# Function with default parameters
+def introduce(name, age=18):
+    return f"Hi, I'm {name} and I'm {age} years old"
+
+# Using the functions
+message = greet("Sarah")
+print(message)
+
+room_area = calculate_area(10, 12)
+print(f"The room area is {room_area} square feet")
+
+print(introduce("John"))
+print(introduce("Jane", 25))
+
+#Exercise:** Write a function that takes a temperature in Celsius and returns it in Fahrenheit.
+# #The formula for this is `(0°C × 9/5) + 32 = 32°F`
+
+
+def celsius_to_fahrenheit(celsius):
+    """Convert Celsius to Fahrenheit."""
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+temperature_fahrenheit = celsius_to_fahrenheit(5)
+print (temperature_fahrenheit)
+
+
+
+# Import entire library
+import math
+print(math.sqrt(16))  # Output: 4.0
+
+# Import specific functions
+from random import randint, choice
+random_number = randint(1, 10)
+random_color = choice(["red", "blue", "green"])
+
+# Import with alias
+import datetime as dt
+current_time = dt.datetime.now()
+print(current_time)
+
+# Common useful libraries
+import os  # Operating system interface
+import sys  # System-specific parameters

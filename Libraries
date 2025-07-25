@@ -1,0 +1,22 @@
+
+# Import entire library
+import math
+print(math.sqrt(16))  # Output: 4.0
+
+# Import specific functions
+from random import randint, choice
+random_number = randint(1, 10)
+random_color = choice(["red", "blue", "green"])
+
+# Import with alias
+import datetime as dt
+current_time = dt.datetime.now()
+print(current_time)
+
+# Common useful libraries
+import os  # Operating system interface
+import sys  # System-specific parameters
+
+from random import randint, choice
+random_number = randint(1, 100)
+print (random_number)

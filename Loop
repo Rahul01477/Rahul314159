@@ -1,0 +1,31 @@
+# for loops
+
+# Loop through a range
+for i in range(5):
+    print(f"Count: {i}")
+
+# Loop through a list
+fruits = ["apple", "banana", "orange"]
+for fruit in fruits:
+    print(f"I like {fruit}")
+
+# Loop with enumerate (get index and value)
+for index, fruit in enumerate(fruits):
+    print(f"{index}: {fruit}")
+
+
+    # while loops
+
+# Basic while loop
+count = 0
+while count < 5:
+    print(f"Count is {count}")
+    count += 1
+
+# While loop with user input
+password = ""
+while password != "secret":
+    password = input("Enter password: ")
+    if password != "secret":
+        print("Incorrect password!")
+print("Access granted!")

@@ -1,0 +1,18 @@
+# Basic variable assignment
+name = "Rahul"
+age = 22
+height = 5.10
+is_student = True
+tv_show = "The Office"
+year_release = "2001"
+reccomendation = "10000%"
+# You can change variable values
+age = 22
+print(f"My name is {name} and I am {age} years old")
+print(f"My favourite show is {tv_show} and it was released in {year_release} and I reccomend it {reccomendation}")
+
+# Different data types
+numbers = [1, 2, 3, 4, 5]  # List
+person = {"name": "Bob", "age": 30}  # Dictionary
+
+
